@@ -1,0 +1,49 @@
+.Voyager-form {
+  background-color: rgb(173, 119, 18);
+  color: beige;
+  font-weight: 600;
+  padding: 16px;
+  max-width: 332px;
+}
+
+.Voyager-form label {
+  display: block;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+.Voyager-form input,
+.Voyager-form textarea,
+.Voyager-form select {
+  font-size: 14px;
+  padding: 8px;
+  width: 300px;
+}
+
+.Voyager-form select {
+  height: 33px;
+}
+
+.Voyager-form > .field {
+  margin-bottom: 16px;
+}
+.Voyager-form > .buttons {
+  margin-top: 26px;
+}
+
+.Voyager-form button {
+  background-color: orange;
+  border-radius: 4px;
+  border: 0;
+  color: beige;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+.Voyager-form button[type="submit"]:hover {
+  background-color: rgb(56, 182, 224);
+  color: orange;
+}
